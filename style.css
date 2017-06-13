@@ -1,0 +1,51 @@
+#chatbot-container {
+	font-family: sans-serif;
+}
+
+.chatbot-header {
+	text-align: center;
+	line-height: 60px;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+#chatbot-window-header {
+	position: static;
+	height: 60px;
+	width: 400px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #a20014;
+}
+
+#chatbot-window-body {
+	position: static;
+	height: 420px;
+	width: 400px;
+	background-color: #efece2;
+}
+
+#chatbot-window-footer {
+	position: static;
+	height: 70px;
+	width: 400px;
+	background-color: #b3b3b3;
+}
+
+input[type=text] {
+    width: 75%;
+    height: 80%;
+    padding: 12px 12px;
+   	margin-top: 7px;
+   	margin-left: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.send-button {
+	width: 60px;
+	height: 40px;
+	margin: 14px;
+}
